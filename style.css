@@ -6,8 +6,8 @@
 
 .header-banner {
     background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-    width: 100%;
-    padding: 30px 0;
+    width: 100vw;
+    padding: 40px 0;
     margin: 0;
     position: relative;
     left: 50%;
@@ -18,12 +18,14 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 5%;
+    padding-left: 10%;
+    box-sizing: border-box;
 }
 
 .header-banner img {
-    height: 80px;
+    height: 150px;
     width: auto;
+    max-width: 400px;
 }
 
 body {
@@ -31,9 +33,10 @@ body {
     line-height: 1.8;
     max-width: 800px;
     margin: 0 auto;
-    padding: 40px 20px;
+    padding: 0 20px 40px 20px;
     background-color: #ffffff;
     color: #333;
+    overflow-x: hidden;
 }
 
 header {
